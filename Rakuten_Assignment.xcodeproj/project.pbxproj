@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3FA98FD2589C4DF00B5EA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA98FC2589C4DF00B5EA4B /* AppDelegate.swift */; };
+		F3FA98FF2589C4DF00B5EA4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA98FE2589C4DF00B5EA4B /* SceneDelegate.swift */; };
+		F3FA99012589C4DF00B5EA4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA99002589C4DF00B5EA4B /* ViewController.swift */; };
+		F3FA99042589C4DF00B5EA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FA99022589C4DF00B5EA4B /* Main.storyboard */; };
+		F3FA99062589C4E100B5EA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FA99052589C4E100B5EA4B /* Assets.xcassets */; };
+		F3FA99092589C4E100B5EA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FA99072589C4E100B5EA4B /* LaunchScreen.storyboard */; };
+		F3FA99142589C4E200B5EA4B /* Rakuten_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA99132589C4E200B5EA4B /* Rakuten_AssignmentTests.swift */; };
+		F3FA991F2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA991E2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3FA99102589C4E200B5EA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3FA98F12589C4DF00B5EA4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3FA98F82589C4DF00B5EA4B;
+			remoteInfo = Rakuten_Assignment;
+		};
+		F3FA991B2589C4E200B5EA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3FA98F12589C4DF00B5EA4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3FA98F82589C4DF00B5EA4B;
+			remoteInfo = Rakuten_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3FA98F92589C4DF00B5EA4B /* Rakuten_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rakuten_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA98FC2589C4DF00B5EA4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3FA98FE2589C4DF00B5EA4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3FA99002589C4DF00B5EA4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3FA99032589C4DF00B5EA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3FA99052589C4E100B5EA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3FA99082589C4E100B5EA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3FA990A2589C4E100B5EA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FA990F2589C4E200B5EA4B /* Rakuten_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rakuten_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA99132589C4E200B5EA4B /* Rakuten_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rakuten_AssignmentTests.swift; sourceTree = "<group>"; };
+		F3FA99152589C4E200B5EA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FA991A2589C4E200B5EA4B /* Rakuten_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rakuten_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FA991E2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rakuten_AssignmentUITests.swift; sourceTree = "<group>"; };
+		F3FA99202589C4E200B5EA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FA98F62589C4DF00B5EA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA990C2589C4E200B5EA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA99172589C4E200B5EA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3FA98F02589C4DF00B5EA4B = {
+			isa = PBXGroup;
+			children = (
+				F3FA98FB2589C4DF00B5EA4B /* Rakuten_Assignment */,
+				F3FA99122589C4E200B5EA4B /* Rakuten_AssignmentTests */,
+				F3FA991D2589C4E200B5EA4B /* Rakuten_AssignmentUITests */,
+				F3FA98FA2589C4DF00B5EA4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FA98FA2589C4DF00B5EA4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA98F92589C4DF00B5EA4B /* Rakuten_Assignment.app */,
+				F3FA990F2589C4E200B5EA4B /* Rakuten_AssignmentTests.xctest */,
+				F3FA991A2589C4E200B5EA4B /* Rakuten_AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FA98FB2589C4DF00B5EA4B /* Rakuten_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA98FC2589C4DF00B5EA4B /* AppDelegate.swift */,
+				F3FA98FE2589C4DF00B5EA4B /* SceneDelegate.swift */,
+				F3FA99002589C4DF00B5EA4B /* ViewController.swift */,
+				F3FA99022589C4DF00B5EA4B /* Main.storyboard */,
+				F3FA99052589C4E100B5EA4B /* Assets.xcassets */,
+				F3FA99072589C4E100B5EA4B /* LaunchScreen.storyboard */,
+				F3FA990A2589C4E100B5EA4B /* Info.plist */,
+			);
+			path = Rakuten_Assignment;
+			sourceTree = "<group>";
+		};
+		F3FA99122589C4E200B5EA4B /* Rakuten_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA99132589C4E200B5EA4B /* Rakuten_AssignmentTests.swift */,
+				F3FA99152589C4E200B5EA4B /* Info.plist */,
+			);
+			path = Rakuten_AssignmentTests;
+			sourceTree = "<group>";
+		};
+		F3FA991D2589C4E200B5EA4B /* Rakuten_AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA991E2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift */,
+				F3FA99202589C4E200B5EA4B /* Info.plist */,
+			);
+			path = Rakuten_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3FA98F82589C4DF00B5EA4B /* Rakuten_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FA99232589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_Assignment" */;
+			buildPhases = (
+				F3FA98F52589C4DF00B5EA4B /* Sources */,
+				F3FA98F62589C4DF00B5EA4B /* Frameworks */,
+				F3FA98F72589C4DF00B5EA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rakuten_Assignment;
+			productName = Rakuten_Assignment;
+			productReference = F3FA98F92589C4DF00B5EA4B /* Rakuten_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3FA990E2589C4E200B5EA4B /* Rakuten_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FA99262589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentTests" */;
+			buildPhases = (
+				F3FA990B2589C4E200B5EA4B /* Sources */,
+				F3FA990C2589C4E200B5EA4B /* Frameworks */,
+				F3FA990D2589C4E200B5EA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3FA99112589C4E200B5EA4B /* PBXTargetDependency */,
+			);
+			name = Rakuten_AssignmentTests;
+			productName = Rakuten_AssignmentTests;
+			productReference = F3FA990F2589C4E200B5EA4B /* Rakuten_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3FA99192589C4E200B5EA4B /* Rakuten_AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FA99292589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentUITests" */;
+			buildPhases = (
+				F3FA99162589C4E200B5EA4B /* Sources */,
+				F3FA99172589C4E200B5EA4B /* Frameworks */,
+				F3FA99182589C4E200B5EA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3FA991C2589C4E200B5EA4B /* PBXTargetDependency */,
+			);
+			name = Rakuten_AssignmentUITests;
+			productName = Rakuten_AssignmentUITests;
+			productReference = F3FA991A2589C4E200B5EA4B /* Rakuten_AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FA98F12589C4DF00B5EA4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F3FA98F82589C4DF00B5EA4B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F3FA990E2589C4E200B5EA4B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F3FA98F82589C4DF00B5EA4B;
+					};
+					F3FA99192589C4E200B5EA4B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F3FA98F82589C4DF00B5EA4B;
+					};
+				};
+			};
+			buildConfigurationList = F3FA98F42589C4DF00B5EA4B /* Build configuration list for PBXProject "Rakuten_Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3FA98F02589C4DF00B5EA4B;
+			productRefGroup = F3FA98FA2589C4DF00B5EA4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FA98F82589C4DF00B5EA4B /* Rakuten_Assignment */,
+				F3FA990E2589C4E200B5EA4B /* Rakuten_AssignmentTests */,
+				F3FA99192589C4E200B5EA4B /* Rakuten_AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FA98F72589C4DF00B5EA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA99092589C4E100B5EA4B /* LaunchScreen.storyboard in Resources */,
+				F3FA99062589C4E100B5EA4B /* Assets.xcassets in Resources */,
+				F3FA99042589C4DF00B5EA4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA990D2589C4E200B5EA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA99182589C4E200B5EA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FA98F52589C4DF00B5EA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA99012589C4DF00B5EA4B /* ViewController.swift in Sources */,
+				F3FA98FD2589C4DF00B5EA4B /* AppDelegate.swift in Sources */,
+				F3FA98FF2589C4DF00B5EA4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA990B2589C4E200B5EA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA99142589C4E200B5EA4B /* Rakuten_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FA99162589C4E200B5EA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FA991F2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3FA99112589C4E200B5EA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3FA98F82589C4DF00B5EA4B /* Rakuten_Assignment */;
+			targetProxy = F3FA99102589C4E200B5EA4B /* PBXContainerItemProxy */;
+		};
+		F3FA991C2589C4E200B5EA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3FA98F82589C4DF00B5EA4B /* Rakuten_Assignment */;
+			targetProxy = F3FA991B2589C4E200B5EA4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3FA99022589C4DF00B5EA4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3FA99032589C4DF00B5EA4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3FA99072589C4E100B5EA4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3FA99082589C4E100B5EA4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3FA99212589C4E200B5EA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3FA99222589C4E200B5EA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3FA99242589C4E200B5EA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rakuten_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FA99252589C4E200B5EA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rakuten_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3FA99272589C4E200B5EA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rakuten_AssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rakuten_Assignment.app/Rakuten_Assignment";
+			};
+			name = Debug;
+		};
+		F3FA99282589C4E200B5EA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rakuten_AssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rakuten_Assignment.app/Rakuten_Assignment";
+			};
+			name = Release;
+		};
+		F3FA992A2589C4E200B5EA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rakuten_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rakuten_Assignment;
+			};
+			name = Debug;
+		};
+		F3FA992B2589C4E200B5EA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rakuten_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rakuten_Assignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FA98F42589C4DF00B5EA4B /* Build configuration list for PBXProject "Rakuten_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA99212589C4E200B5EA4B /* Debug */,
+				F3FA99222589C4E200B5EA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FA99232589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA99242589C4E200B5EA4B /* Debug */,
+				F3FA99252589C4E200B5EA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FA99262589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA99272589C4E200B5EA4B /* Debug */,
+				F3FA99282589C4E200B5EA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FA99292589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FA992A2589C4E200B5EA4B /* Debug */,
+				F3FA992B2589C4E200B5EA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3FA98F12589C4DF00B5EA4B /* Project object */;
+}
