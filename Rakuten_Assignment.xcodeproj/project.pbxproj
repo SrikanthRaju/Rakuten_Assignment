@@ -7,34 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3CE13CA25936F02004E22CF /* BundleResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE13C725936F02004E22CF /* BundleResource.swift */; };
+		F3CE13CB25936F02004E22CF /* NobelLaureatesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE13C825936F02004E22CF /* NobelLaureatesParser.swift */; };
+		F3CE13CC25936F02004E22CF /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE13C925936F02004E22CF /* DataParser.swift */; };
+		F3F408422589D522008719D1 /* nobel-prize-laureates.json in Resources */ = {isa = PBXBuildFile; fileRef = F3F408412589D522008719D1 /* nobel-prize-laureates.json */; };
+		F3F408472589D716008719D1 /* LaureateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F408462589D716008719D1 /* LaureateModel.swift */; };
+		F3F40865258A0947008719D1 /* LaureatsListViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F40864258A0947008719D1 /* LaureatsListViewModal.swift */; };
+		F3F4086A258A0BCD008719D1 /* LaureatsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F40869258A0BCD008719D1 /* LaureatsListController.swift */; };
+		F3F40873258A1855008719D1 /* LaureateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F40871258A1855008719D1 /* LaureateCell.swift */; };
 		F3FA98FD2589C4DF00B5EA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA98FC2589C4DF00B5EA4B /* AppDelegate.swift */; };
 		F3FA98FF2589C4DF00B5EA4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA98FE2589C4DF00B5EA4B /* SceneDelegate.swift */; };
 		F3FA99012589C4DF00B5EA4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA99002589C4DF00B5EA4B /* ViewController.swift */; };
 		F3FA99042589C4DF00B5EA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FA99022589C4DF00B5EA4B /* Main.storyboard */; };
 		F3FA99062589C4E100B5EA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FA99052589C4E100B5EA4B /* Assets.xcassets */; };
 		F3FA99092589C4E100B5EA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FA99072589C4E100B5EA4B /* LaunchScreen.storyboard */; };
-		F3FA99142589C4E200B5EA4B /* Rakuten_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA99132589C4E200B5EA4B /* Rakuten_AssignmentTests.swift */; };
-		F3FA991F2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA991E2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F3FA99102589C4E200B5EA4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F3FA98F12589C4DF00B5EA4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3FA98F82589C4DF00B5EA4B;
-			remoteInfo = Rakuten_Assignment;
-		};
-		F3FA991B2589C4E200B5EA4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F3FA98F12589C4DF00B5EA4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3FA98F82589C4DF00B5EA4B;
-			remoteInfo = Rakuten_Assignment;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F3CE13C725936F02004E22CF /* BundleResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleResource.swift; sourceTree = "<group>"; };
+		F3CE13C825936F02004E22CF /* NobelLaureatesParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NobelLaureatesParser.swift; sourceTree = "<group>"; };
+		F3CE13C925936F02004E22CF /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		F3F408412589D522008719D1 /* nobel-prize-laureates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "nobel-prize-laureates.json"; sourceTree = "<group>"; };
+		F3F408462589D716008719D1 /* LaureateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateModel.swift; sourceTree = "<group>"; };
+		F3F40864258A0947008719D1 /* LaureatsListViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatsListViewModal.swift; sourceTree = "<group>"; };
+		F3F40869258A0BCD008719D1 /* LaureatsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatsListController.swift; sourceTree = "<group>"; };
+		F3F40871258A1855008719D1 /* LaureateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureateCell.swift; sourceTree = "<group>"; };
 		F3FA98F92589C4DF00B5EA4B /* Rakuten_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rakuten_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FA98FC2589C4DF00B5EA4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FA98FE2589C4DF00B5EA4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +40,6 @@
 		F3FA99052589C4E100B5EA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3FA99082589C4E100B5EA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3FA990A2589C4E100B5EA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3FA990F2589C4E200B5EA4B /* Rakuten_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rakuten_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3FA99132589C4E200B5EA4B /* Rakuten_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rakuten_AssignmentTests.swift; sourceTree = "<group>"; };
-		F3FA99152589C4E200B5EA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3FA991A2589C4E200B5EA4B /* Rakuten_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rakuten_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3FA991E2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rakuten_AssignmentUITests.swift; sourceTree = "<group>"; };
-		F3FA99202589C4E200B5EA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,29 +50,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3FA990C2589C4E200B5EA4B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3FA99172589C4E200B5EA4B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3CE13C625936F02004E22CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE13C725936F02004E22CF /* BundleResource.swift */,
+				F3CE13C825936F02004E22CF /* NobelLaureatesParser.swift */,
+				F3CE13C925936F02004E22CF /* DataParser.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F3F4082D2589C9E9008719D1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA98FC2589C4DF00B5EA4B /* AppDelegate.swift */,
+				F3FA98FE2589C4DF00B5EA4B /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F3F408312589C9FD008719D1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA99022589C4DF00B5EA4B /* Main.storyboard */,
+				F3FA99072589C4E100B5EA4B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F3F408322589CA0D008719D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA99052589C4E100B5EA4B /* Assets.xcassets */,
+				F3F408412589D522008719D1 /* nobel-prize-laureates.json */,
+				F3FA990A2589C4E100B5EA4B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3F40860258A08AD008719D1 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F3F408462589D716008719D1 /* LaureateModel.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
 		F3FA98F02589C4DF00B5EA4B = {
 			isa = PBXGroup;
 			children = (
 				F3FA98FB2589C4DF00B5EA4B /* Rakuten_Assignment */,
-				F3FA99122589C4E200B5EA4B /* Rakuten_AssignmentTests */,
-				F3FA991D2589C4E200B5EA4B /* Rakuten_AssignmentUITests */,
 				F3FA98FA2589C4DF00B5EA4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				F3FA98F92589C4DF00B5EA4B /* Rakuten_Assignment.app */,
-				F3FA990F2589C4E200B5EA4B /* Rakuten_AssignmentTests.xctest */,
-				F3FA991A2589C4E200B5EA4B /* Rakuten_AssignmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,33 +118,17 @@
 		F3FA98FB2589C4DF00B5EA4B /* Rakuten_Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				F3FA98FC2589C4DF00B5EA4B /* AppDelegate.swift */,
-				F3FA98FE2589C4DF00B5EA4B /* SceneDelegate.swift */,
+				F3F4082D2589C9E9008719D1 /* AppDelegate */,
 				F3FA99002589C4DF00B5EA4B /* ViewController.swift */,
-				F3FA99022589C4DF00B5EA4B /* Main.storyboard */,
-				F3FA99052589C4E100B5EA4B /* Assets.xcassets */,
-				F3FA99072589C4E100B5EA4B /* LaunchScreen.storyboard */,
-				F3FA990A2589C4E100B5EA4B /* Info.plist */,
+				F3F40864258A0947008719D1 /* LaureatsListViewModal.swift */,
+				F3F40869258A0BCD008719D1 /* LaureatsListController.swift */,
+				F3F40871258A1855008719D1 /* LaureateCell.swift */,
+				F3CE13C625936F02004E22CF /* Utils */,
+				F3F40860258A08AD008719D1 /* Modal */,
+				F3F408312589C9FD008719D1 /* Storyboards */,
+				F3F408322589CA0D008719D1 /* Resources */,
 			);
 			path = Rakuten_Assignment;
-			sourceTree = "<group>";
-		};
-		F3FA99122589C4E200B5EA4B /* Rakuten_AssignmentTests */ = {
-			isa = PBXGroup;
-			children = (
-				F3FA99132589C4E200B5EA4B /* Rakuten_AssignmentTests.swift */,
-				F3FA99152589C4E200B5EA4B /* Info.plist */,
-			);
-			path = Rakuten_AssignmentTests;
-			sourceTree = "<group>";
-		};
-		F3FA991D2589C4E200B5EA4B /* Rakuten_AssignmentUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F3FA991E2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift */,
-				F3FA99202589C4E200B5EA4B /* Info.plist */,
-			);
-			path = Rakuten_AssignmentUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +151,6 @@
 			productReference = F3FA98F92589C4DF00B5EA4B /* Rakuten_Assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3FA990E2589C4E200B5EA4B /* Rakuten_AssignmentTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3FA99262589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentTests" */;
-			buildPhases = (
-				F3FA990B2589C4E200B5EA4B /* Sources */,
-				F3FA990C2589C4E200B5EA4B /* Frameworks */,
-				F3FA990D2589C4E200B5EA4B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3FA99112589C4E200B5EA4B /* PBXTargetDependency */,
-			);
-			name = Rakuten_AssignmentTests;
-			productName = Rakuten_AssignmentTests;
-			productReference = F3FA990F2589C4E200B5EA4B /* Rakuten_AssignmentTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F3FA99192589C4E200B5EA4B /* Rakuten_AssignmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3FA99292589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentUITests" */;
-			buildPhases = (
-				F3FA99162589C4E200B5EA4B /* Sources */,
-				F3FA99172589C4E200B5EA4B /* Frameworks */,
-				F3FA99182589C4E200B5EA4B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3FA991C2589C4E200B5EA4B /* PBXTargetDependency */,
-			);
-			name = Rakuten_AssignmentUITests;
-			productName = Rakuten_AssignmentUITests;
-			productReference = F3FA991A2589C4E200B5EA4B /* Rakuten_AssignmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +162,6 @@
 				TargetAttributes = {
 					F3FA98F82589C4DF00B5EA4B = {
 						CreatedOnToolsVersion = 12.3;
-					};
-					F3FA990E2589C4E200B5EA4B = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = F3FA98F82589C4DF00B5EA4B;
-					};
-					F3FA99192589C4E200B5EA4B = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = F3FA98F82589C4DF00B5EA4B;
 					};
 				};
 			};
@@ -220,8 +179,6 @@
 			projectRoot = "";
 			targets = (
 				F3FA98F82589C4DF00B5EA4B /* Rakuten_Assignment */,
-				F3FA990E2589C4E200B5EA4B /* Rakuten_AssignmentTests */,
-				F3FA99192589C4E200B5EA4B /* Rakuten_AssignmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,23 +188,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F408422589D522008719D1 /* nobel-prize-laureates.json in Resources */,
 				F3FA99092589C4E100B5EA4B /* LaunchScreen.storyboard in Resources */,
 				F3FA99062589C4E100B5EA4B /* Assets.xcassets in Resources */,
 				F3FA99042589C4DF00B5EA4B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3FA990D2589C4E200B5EA4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3FA99182589C4E200B5EA4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,41 +203,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3FA99012589C4DF00B5EA4B /* ViewController.swift in Sources */,
+				F3CE13CB25936F02004E22CF /* NobelLaureatesParser.swift in Sources */,
+				F3CE13CA25936F02004E22CF /* BundleResource.swift in Sources */,
 				F3FA98FD2589C4DF00B5EA4B /* AppDelegate.swift in Sources */,
+				F3F40873258A1855008719D1 /* LaureateCell.swift in Sources */,
+				F3F4086A258A0BCD008719D1 /* LaureatsListController.swift in Sources */,
+				F3CE13CC25936F02004E22CF /* DataParser.swift in Sources */,
+				F3F40865258A0947008719D1 /* LaureatsListViewModal.swift in Sources */,
 				F3FA98FF2589C4DF00B5EA4B /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3FA990B2589C4E200B5EA4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3FA99142589C4E200B5EA4B /* Rakuten_AssignmentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3FA99162589C4E200B5EA4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3FA991F2589C4E200B5EA4B /* Rakuten_AssignmentUITests.swift in Sources */,
+				F3F408472589D716008719D1 /* LaureateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F3FA99112589C4E200B5EA4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F3FA98F82589C4DF00B5EA4B /* Rakuten_Assignment */;
-			targetProxy = F3FA99102589C4E200B5EA4B /* PBXContainerItemProxy */;
-		};
-		F3FA991C2589C4E200B5EA4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F3FA98F82589C4DF00B5EA4B /* Rakuten_Assignment */;
-			targetProxy = F3FA991B2589C4E200B5EA4B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F3FA99022589C4DF00B5EA4B /* Main.storyboard */ = {
@@ -436,14 +358,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Rakuten_Assignment/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Rakuten_Assignment/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-Assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobel.laureates.kobo.rakuten.assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,96 +378,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Rakuten_Assignment/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Rakuten_Assignment/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-Assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobel.laureates.kobo.rakuten.assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F3FA99272589C4E200B5EA4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Rakuten_AssignmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rakuten_Assignment.app/Rakuten_Assignment";
-			};
-			name = Debug;
-		};
-		F3FA99282589C4E200B5EA4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Rakuten_AssignmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rakuten_Assignment.app/Rakuten_Assignment";
-			};
-			name = Release;
-		};
-		F3FA992A2589C4E200B5EA4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Rakuten_AssignmentUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Rakuten_Assignment;
-			};
-			name = Debug;
-		};
-		F3FA992B2589C4E200B5EA4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Rakuten_AssignmentUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nobel.laureates.kobo.rakuten.Rakuten-AssignmentUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Rakuten_Assignment;
 			};
 			name = Release;
 		};
@@ -564,24 +410,6 @@
 			buildConfigurations = (
 				F3FA99242589C4E200B5EA4B /* Debug */,
 				F3FA99252589C4E200B5EA4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3FA99262589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3FA99272589C4E200B5EA4B /* Debug */,
-				F3FA99282589C4E200B5EA4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3FA99292589C4E200B5EA4B /* Build configuration list for PBXNativeTarget "Rakuten_AssignmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3FA992A2589C4E200B5EA4B /* Debug */,
-				F3FA992B2589C4E200B5EA4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
